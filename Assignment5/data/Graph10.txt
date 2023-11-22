@@ -1,0 +1,23 @@
+A B 1
+A C 1
+A D 7
+B E 10
+B F 10
+B G 5
+C H 2
+C I 10
+C J 6
+D K 4
+D L 1
+D M 4
+E N 7
+E O 8
+K H 9
+N G 5
+G D 9
+F O 4
+F M 3
+A E 6
+---------------------------
+The number of vertices in this graph is 15
+The number of edges in this graph is 20

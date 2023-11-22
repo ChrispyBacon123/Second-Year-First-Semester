@@ -1,0 +1,25 @@
+# TokTik  program makefile
+# Christopher Blignaut
+# 15 April 2023
+
+JAVAC=/usr/bin/javac
+JAVA=/usr/bin/java
+.SUFFIXES: .java .class
+SRCDIR=src
+BINDIR=bin
+
+$(BINDIR)/%.class:$(SRCDIR)/%.java
+	$(JAVAC) -d $(BINDIR)/ -cp $(BINDIR) $<
+	
+CLASSES=BinaryTreeNode.class BTQueueNode.class BTQueue.class BinaryTree.class BinarySearchTree.class Post.class Account.class TokTik.class 
+
+CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
+
+
+default: $(CLASSES_FILES)
+
+clean:
+	rm $(BINDRIR)/*.class
+	
+run: $(CLASS_FILES)
+	$(JAVA) -cp bin TokTik

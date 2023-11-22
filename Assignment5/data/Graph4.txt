@@ -1,0 +1,43 @@
+A B 6
+A C 3
+A D 9
+B E 6
+B F 8
+B G 5
+G E 6
+G D 2
+E C 3
+E B 5
+B A 9
+D F 8
+B D 8
+A F 10
+G B 1
+A G 6
+E G 4
+C E 9
+F G 3
+D E 8
+G C 9
+B C 2
+A E 1
+F A 4
+G F 1
+D G 10
+E F 2
+E A 1
+D A 10
+F C 9
+F D 8
+D C 1
+D B 6
+C D 6
+F B 7
+E D 5
+C G 5
+G A 1
+F E 5
+C F 3
+---------------------------
+The number of vertices in this graph is 7
+The number of edges in this graph is 40

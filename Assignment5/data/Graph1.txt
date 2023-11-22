@@ -1,0 +1,13 @@
+A B 6
+A C 2
+A D 7
+B E 5
+B F 5
+B G 8
+F B 9
+E B 9
+F G 7
+C G 6
+---------------------------
+The number of vertices in this graph is 7
+The number of edges in this graph is 10
